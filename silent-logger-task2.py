@@ -16,11 +16,8 @@ elif cpu_usage > 80 and cpu_usage <= 90:
 memory_usage = random.randint(0, 100)
 if memory_usage > 85:
     print("High memory usage!")
-elif memory_usage > 75 and memory_usage <=85:
-    pass
+
 
 disk_space = random.randint(0, 100)
 if disk_space > 90:
     print("High disk space usage!")
-elif disk_space > 50 and disk_space <= 90:
-    pass
