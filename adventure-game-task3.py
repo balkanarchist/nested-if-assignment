@@ -15,10 +15,14 @@ elif place == "cave":
     action = input("light a torch or proceed in the dark? ")
     if action == "light a torch":
         print("You see a colony of bats coming back at you!")
-    else:
+    elif action == "proceed in the dark": #changed to elif to allow for pass below
         print("Fumble around until you find a nasty looking light switch.")
+    else:
+        pass #the simplest place to put a pass since we were given specific options to include above
 else:    
     print("You find a hidden treasure!")
+
+
 
 
 # still need to add pass statement
