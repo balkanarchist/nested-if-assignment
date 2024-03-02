@@ -21,8 +21,3 @@ elif place == "cave":
         pass #the simplest place to put a pass since we were given specific options to include above
 else:    
     print("You find a hidden treasure!")
-
-
-
-
-# still need to add pass statement
